@@ -44,3 +44,4 @@ export const FEATURES = [
         icon: ZapIcon,
         image: "/images/feature-five.svg",
     }
+]
