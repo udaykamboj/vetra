@@ -15,7 +15,7 @@ const Footer = () => {
                             </span>
                         </div>
                         <p className="text-muted-foreground mt-4 text-sm text-start">
-                            AI-powered platform that transforms your marketing workflow in seconds.
+                            Intelligent automation platform that transforms your business operations in minutes.
                         </p>
                     </div>
                 </Container>

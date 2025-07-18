@@ -27,10 +27,10 @@ const Pricing = () => {
                 <Container>
                     <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
                         <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-medium !leading-snug mt-6">
-                            Find the right plan that suits <br className="hidden lg:block" /> <span className="font-subheading italic">your needs</span>
+                            Choose the perfect plan for <br className="hidden lg:block" /> <span className="font-subheading italic">your business</span>
                         </h2>
                         <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                            Transform your marketing with AI-powered automation. Create campaigns faster, generate better content, and make smarter decisions in minutes.
+                            Scale your business operations with intelligent automation. Streamline workflows, optimize processes, and grow efficiently with our platform.
                         </p>
                     </div>
                 </Container>

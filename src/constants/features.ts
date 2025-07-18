@@ -1,40 +1,46 @@
 import {
-    ChartColumnBigIcon,
-    DatabaseIcon,
-    TrendingUpIcon,
-    WandSparklesIcon,
+    WorkflowIcon,
+    BarChart3Icon,
+    CogIcon,
+    RocketIcon,
+    ShieldCheckIcon,
     ZapIcon
 } from "lucide-react";
 
 export const FEATURES = [
     {
-        title: "Enhance User Experience",
-        description: "Efficiently manage user data and interactions with advanced AI tools",
-        icon: WandSparklesIcon,
+        title: "Workflow Automation",
+        description: "Streamline repetitive tasks and complex business processes with intelligent automation",
+        icon: WorkflowIcon,
         image: "/images/feature-two.svg",
     },
     {
-        title: "Comprehensive Insights",
-        description: "Gain deep insights into your audience and campaign performance",
-        icon: ChartColumnBigIcon,
+        title: "Business Intelligence",
+        description: "Make data-driven decisions with comprehensive analytics and reporting",
+        icon: BarChart3Icon,
         image: "/images/feature-one.svg",
     },
     {
-        title: "Data Management",
-        description: "Manage your data with ease and efficiency",
-        icon: DatabaseIcon,
+        title: "Process Optimization",
+        description: "Optimize your business processes for maximum efficiency and productivity",
+        icon: CogIcon,
         image: "/images/feature-three.svg",
     },
     {
-        title: "Real-Time Analytics",
-        description: "Track and analyze your marketing performance in real-time",
-        icon: TrendingUpIcon,
+        title: "Scalable Solutions",
+        description: "Grow your business with solutions that scale with your needs",
+        icon: RocketIcon,
         image: "/images/feature-four.svg",
     },
     {
-        title: "Dynamic Optimization",
-        description: "AI-powered optimization for smarter marketing",
+        title: "Enterprise Security",
+        description: "Keep your business data secure with enterprise-grade security features",
+        icon: ShieldCheckIcon,
+        image: "/images/feature-five.svg",
+    },
+    {
+        title: "Smart Integration",
+        description: "Connect all your business tools and systems seamlessly",
         icon: ZapIcon,
         image: "/images/feature-five.svg",
     }
-]

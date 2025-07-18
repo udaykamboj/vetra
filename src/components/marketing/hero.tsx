@@ -56,25 +56,30 @@ const Hero = () => {
                         </button>
                     </Container>
                     <Container delay={0.15}>
-                        <h1 className="text-4xl md:text-4xl lg:text-7xl font-bold text-center !leading-tight max-w-4xl mx-auto">
-                            Transform your {" "}
-                            <span className="">
-                                marketing {" "}
+                        <h1 className="text-4xl md:text-4xl lg:text-7xl font-bold text-center !leading-tight max-w-5xl mx-auto">
+                            Automate Smarter. {" "}
+                            <span className="font-subheading italic">
+                                Grow Faster. {" "}
                             </span>
-                            with AI Precision
+                            Build for it.
                         </h1>
                     </Container>
                     <Container delay={0.2}>
-                        <p className="max-w-xl mx-auto mt-2 text-base lg:text-lg text-center text-muted-foreground">
-                            AI-powered automation and insights to maximize your campaigns and grow your brand.
+                        <p className="max-w-2xl mx-auto mt-2 text-base lg:text-lg text-center text-muted-foreground">
+                            Streamline your business operations with intelligent automation. From workflow optimization to process management, we help you scale efficiently.
                         </p>
                     </Container>
                     <Container delay={0.25} className="z-20">
                         <div className="flex items-center justify-center mt-6 gap-x-4">
                             <Link href="#" className="flex items-center gap-2 group">
                                 <Button size="lg">
-                                    Start Free Trial
+                                    Get Started Free
                                     <ArrowRightIcon className="size-4 group-hover:translate-x-1 transition-all duration-300" />
+                                </Button>
+                            </Link>
+                            <Link href="#" className="flex items-center gap-2">
+                                <Button size="lg" variant="outline">
+                                    Watch Demo
                                 </Button>
                             </Link>
                         </div>
